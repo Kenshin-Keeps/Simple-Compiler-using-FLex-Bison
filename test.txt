@@ -1,0 +1,78 @@
+using std.h
+
+start()
+{
+    #This is the input part
+    int var;
+    var = 4;
+    var = 4*var+2;
+    print(var);
+    var = 10;
+    float ab, da;
+	da = 4.5;
+	print(da);
+    ab = 6;
+    if(ab<var){
+        ab = ab*4;
+        print(ab);
+    }
+    otherwise{
+        ab = ab*10;
+        print(ab);
+    }
+    int aa;
+    read(aa);
+    aa = 100;
+    if(aa<=10){
+        print(aa);
+    }
+    elif(aa==20){
+        aa = 2*aa;
+        print(aa);
+    }
+    otherwise{
+        aa = 3*aa;
+        print(aa);
+    }
+    
+    power(16,2);
+    int ax, bx; 
+    ax= 33*ab;
+    bx= 40/2;
+    min(ax, bx);
+    max(ax, bx);
+	checkprime(29);
+	facto(5);
+    int a1,b1,y,z;
+    y=1;
+    from y to 5 inc 1
+    {
+        print(ax);
+    } 
+
+    char ff;
+    #ff = |abcd|;
+    #print(ff);
+    b1 = 30;
+    a1 = 20;
+    if ( a1 != b1 )
+    { 
+        if(a1>b1)
+        {
+           print(a1); 
+        }
+        otherwise
+        {
+            print(b1);
+        }
+    }
+	
+	switch(z){
+		state 1 {
+			print(a1);
+		}
+		complementary{
+			print(b1);
+		}
+	}
+}
