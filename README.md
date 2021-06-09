@@ -2,7 +2,7 @@
 
 This is a simple compiler that can parse C-like code with a little modification in code format. It was part of my **3rd year 2nd-semester** compiler project. I have used **Flex and Bison** to build this compiler using a C programming language. This compiler can not ensure proper handling of *if-else, loop, or switch case* conditions due to Bison limitations. However, It is good enough for a small demonstration of how a compiler works.
 
-Flex and bison are pre-requisite for this project to run into any PC. So install them first and add path varibale properly. 
+Flex and bison are pre-requisite for this project to run into any PC. So install them first and add path variabale properly. 
 
 To run this code do the following steps:
 1. Download this repository as zip to your desired folder.
