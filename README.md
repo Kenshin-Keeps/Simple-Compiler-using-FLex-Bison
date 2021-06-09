@@ -10,10 +10,10 @@ To run this code do the following steps:
 3. Go to unzip folder.
 4. Open Command promt from there.
 5. Run the following commands:
-  1. ```bison -d pf.y```
-  2. ```flex pf.l```
-  3. ```gcc lex.yy.c pf.tab.c -o desired_file_name```
-  4. ```desired_file_name```
+    1. ```bison -d pf.y```
+    2. ```flex pf.l```
+    3. ```gcc lex.yy.c pf.tab.c -o desired_file_name```
+    4. ```desired_file_name```
 
 The output should be printed on the screen.
 By changing the input in the ```test.txt``` file according to the documentation from the ```report.pdf``` file anyone can test it with their own inputs.
